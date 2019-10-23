@@ -5,7 +5,7 @@ theme = "terminal"
 title = "RecipeRadar Engineering"
 
 [params]
-themeColor = "green"
+themeColor = "blue"
 fullWidthTheme = false
 centerTheme = false
 
