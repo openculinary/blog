@@ -1,3 +1,24 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.reciperadar.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "terminal"
+title = "RecipeRadar Engineering"
+
+[params]
+themeColor = "green"
+fullWidthTheme = false
+centerTheme = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "RecipeRadar Engineering"
+    subtitle = "The technology behind the recipe search engine"
+    keywords = "recipes, software, engineering, technology"
+    copyright = "&copy; RecipeRadar"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "RecipeRadar Engineering"
+      logoHomeLink = "/"
