@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blog-deployment
+  labels:
+    app: blog
+spec:
+  selector:
+    matchLabels:
+      app: blog
+      role: web
+  template:
+    metadata:
+      labels:
+        app: blog
+        role: web
+    spec:
+      imagePullSecrets:
+      - name: gitlab-registry
+      containers:
+      - image: registry.gitlab.com/openculinary/blog
+        imagePullPolicy: IfNotPresent
+        name: blog
+        ports:
+        - containerPort: 80
+  replicas: 3
