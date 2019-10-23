@@ -9,6 +9,9 @@ themeColor = "green"
 fullWidthTheme = false
 centerTheme = false
 
+[frontmatter]
+date = [":git"]
+
 [languages]
   [languages.en]
     languageName = "English"
