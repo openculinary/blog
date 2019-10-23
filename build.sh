@@ -15,8 +15,12 @@ if [ -n "${GITLAB_USER_ID}" ]; then
     REGISTRY_AUTH_FILE=${HOME}/auth.json echo "${CI_REGISTRY_PASSWORD}" | buildah login -u "${CI_REGISTRY_USER}" --password-stdin ${CI_REGISTRY}
 fi
 
+# Generate static content
+make public
+
+# Build container
 container=$(buildah from docker.io/library/nginx:alpine)
-buildah copy ${container} 'html' '/usr/share/nginx/html'
+buildah copy ${container} 'public' '/usr/share/nginx/html'
 buildah config --port 80 --entrypoint '/usr/sbin/nginx -g "daemon off;"' ${container}
 buildah commit --squash --rm ${container} ${IMAGE_NAME}:${IMAGE_COMMIT}
 
