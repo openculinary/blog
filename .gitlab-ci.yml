@@ -1,6 +1,6 @@
 buildah:
-  image: fedora:31
+  image: fedora:32
   before_script:
-    - dnf install -y buildah runc git
+    - dnf install -y buildah runc git hugo
   script:
     - sh -x build.sh
