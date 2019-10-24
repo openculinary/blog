@@ -18,7 +18,7 @@ spec:
       imagePullSecrets:
       - name: gitlab-registry
       containers:
-      - image: registry.gitlab.com/openculinary/blog
+      - image: registry.openculinary.org/reciperadar/blog
         imagePullPolicy: IfNotPresent
         name: blog
         ports:
