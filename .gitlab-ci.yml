@@ -3,4 +3,5 @@ buildah:
   before_script:
     - dnf install -y buildah runc git hugo
   script:
+    - make public
     - sh -x build.sh
