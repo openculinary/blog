@@ -1,3 +1,3 @@
-public: content
+public:
 	hugo
 	touch public
