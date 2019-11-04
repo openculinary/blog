@@ -1,5 +1,7 @@
 baseURL = "https://blog.reciperadar.com"
 enableGitInfo = true
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
 languageCode = "en-us"
 theme = "terminal"
 title = "RecipeRadar Engineering"
