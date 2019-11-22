@@ -21,4 +21,3 @@ spec:
         name: blog
         ports:
         - containerPort: 80
-  replicas: 3
