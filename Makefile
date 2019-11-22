@@ -1,3 +1,4 @@
-public:
+.PHONY: prebuild
+
+prebuild:
 	hugo
-	touch public
