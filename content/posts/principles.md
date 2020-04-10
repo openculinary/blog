@@ -22,7 +22,8 @@ the structure of the company and our service:
   Company.  The use of this company structure locks in social goals and reduces
   the potential for growth or revenue pressures to lead the service in
   directions which negatively affect users.  If you're curious to learn more,
-  please read our <link>company structure documentation</link>.
+  please read our [company
+  documentation](https://github.com/openculinary/company).
 
 - All of the code for our application and service is publicly available under
   the AGPLv3 license, and we gladly accept changes and contributions
