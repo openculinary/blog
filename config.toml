@@ -4,7 +4,7 @@ enableRobotsTXT = true
 disableHugoGeneratorInject = true
 languageCode = "en-us"
 theme = "primer"
-title = "RecipeRadar Engineering"
+title = "RecipeRadar Blog"
 
 [params]
 themeColor = "blue"
@@ -17,14 +17,14 @@ date = ["date", ":git"]
 [languages]
   [languages.en]
     languageName = "English"
-    title = "RecipeRadar Engineering"
-    subtitle = "The technology behind the recipe search engine"
-    keywords = "recipes, software, engineering, technology"
+    title = "RecipeRadar Blog"
+    subtitle = "News and articles relating to the RecipeRadar search engine"
+    keywords = "recipes, software, news, technology"
     copyright = "&copy; RecipeRadar"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "RecipeRadar Engineering"
+      logoText = "RecipeRadar Blog"
       logoHomeLink = "/"
