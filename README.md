@@ -1,6 +1,6 @@
-# RecipeRadar Engineering Blog
+# RecipeRadar Blog
 
-The RecipeRadar engineering blog is used to share updates and background about the technology and functionality behind the application.
+The RecipeRadar blog is used to share updates and background about the RecipeRadar service.
 
 It's a [Hugo](https://gohugo.io) static site and posts are configured to read their timestamps from this `git` repository.
 
