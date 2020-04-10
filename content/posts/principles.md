@@ -18,10 +18,11 @@ and adjust that technology.
 To meet these principles, we have made a number of intentional decisions about
 the structure of the company and our service:
 
-- RecipeRadar is a UK Community Interest Company.  This locks in social goals
-  and reduces the potential for growth or revenue pressures to lead the
-  service in directions which negatively affect users.  If you're curious to
-  learn more, please read our <link>company structure documentation</link>.
+- RecipeRadar is developed by OpenCulinary C.I.C., a UK Community Interest
+  Company.  The use of this company structure locks in social goals and reduces
+  the potential for growth or revenue pressures to lead the service in
+  directions which negatively affect users.  If you're curious to learn more,
+  please read our <link>company structure documentation</link>.
 
 - All of the code for our application and service is publicly available under
   the AGPLv3 license, and we gladly accept changes and contributions
