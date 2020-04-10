@@ -1,9 +1,11 @@
-+++
-title = "Welcome!"
-author = "James"
-tags = ["announcements", "welcome", "engineering"]
-showFullContent = true
-+++
+---
+title: Welcome!
+author: James
+tags:
+- announcements
+- welcome
+- engineering
+---
 The [engineering](/tags/engineering) tag will be the home for a series of
 articles detailing the engineering effort behind building RecipeRadar, a recipe
 search engine and meal planner.
