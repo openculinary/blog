@@ -4,7 +4,7 @@ author = "James"
 tags = ["announcements", "welcome", "engineering"]
 showFullContent = true
 +++
-The [engineering](tags/engineering) tag will be the home for a series of
+The [engineering](/tags/engineering) tag will be the home for a series of
 articles detailing the engineering effort behind building RecipeRadar, a recipe
 search engine and meal planner.
 
