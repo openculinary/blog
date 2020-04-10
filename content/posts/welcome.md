@@ -1,5 +1,6 @@
 ---
 title: Welcome!
+date: 2019-10-29T13:13:48-07:00
 author: James
 tags:
 - announcements
