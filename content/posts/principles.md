@@ -23,8 +23,8 @@ the structure of the company and our service:
   service in directions which negatively affect users.  If you're curious to
   learn more, please read our <link>company structure documentation</link>.
 
-- All of the code for our application and service is publicly available under a
-  permissive MIT (?) license, and we gladly accept changes and contributions
+- All of the code for our application and service is publicly available under
+  the AGPLv3 license, and we gladly accept changes and contributions
   from our user community.
 
 - We do not use any proprietary software anywhere in the delivery of our
