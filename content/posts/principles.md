@@ -1,9 +1,11 @@
-+++
-title = "RecipeRadar"
-author = "James"
-tags = ["company", "culture", "principles"]
-showFullContent = true
-+++
+---
+title: RecipeRadar
+author: James
+tags:
+- company
+- culture
+- principles
+---
 RecipeRadar aims to provide recipe search, meal planning, and cooking guidance
 to a global audience via services which are simple, intuitive, collaborative
 and effective, and always designed with users as our first priority.
