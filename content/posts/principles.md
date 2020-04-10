@@ -31,7 +31,7 @@ the structure of the company and our service:
 
 - We do not use any proprietary software anywhere in the delivery of our
   service, which means that you can inspect and reproduce any part of our
-  <link>technology stack</link>.
+  [technology stack](https://github.com/openculinary/).
 
 - No personal data about you is stored on our servers; the only data
   transmitted from the application to the server is the data required to
@@ -46,10 +46,5 @@ the structure of the company and our service:
   is always encrypted with TLS.  We use a strong cipher suite, and we test our
   configuration using SSL Labs' 'SSL Server Test' tool to discover areas for
   improvement.  If you discover or suspect any issue with our application or
-  server security, please <link>let us know</link> and we'll investigate.
-
-- Only the people and services you send a 'shared session' link to will have
-  access to your session.  RecipeRadar does not store the contents of these
-  sessions, nor do we have any way to find or inspect them.  If you're curious
-  for more details, read up on the <link>shared session</link> technology we
-  use.
+  server security, please [let us know](mailto:security@reciperadar.com) and
+  we'll investigate.
