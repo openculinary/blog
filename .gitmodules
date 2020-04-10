@@ -1,6 +1,3 @@
-[submodule "themes/terminal"]
-	path = themes/terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
 [submodule "themes/primer"]
 	path = themes/primer
 	url = git@github.com:qqhann/hugo-primer.git
