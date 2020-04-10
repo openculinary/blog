@@ -12,7 +12,7 @@ fullWidthTheme = false
 centerTheme = false
 
 [frontmatter]
-date = [":git"]
+date = ["date", ":git"]
 
 [languages]
   [languages.en]
