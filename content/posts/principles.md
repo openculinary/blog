@@ -48,9 +48,3 @@ the structure of the company and our service:
   improvement.  If you discover or suspect any issue with our application or
   server security, please [let us know](mailto:security@reciperadar.com) and
   we'll investigate.
-
-- Only the people and services you send a 'shared session' link to will have
-  access to your session.  RecipeRadar does not store the contents of these
-  sessions, nor do we have any way to find or inspect them.  If you're curious
-  for more details, read up on the [shared
-  session](https://github.com/peer-base/peer-base) technology we use.
