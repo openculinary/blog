@@ -21,7 +21,7 @@ date = ['date', ':git']
     title = 'RecipeRadar Blog'
     subtitle = 'News and articles relating to the RecipeRadar search engine'
     keywords = 'recipes, software, news, technology'
-    copyright = '&copy; <a href="https://beta.companieshouse.gov.uk/company/SC647817">OpenCulinary C.I.C.</a> 2019 &ndash; 2020'
+    copyright = '&copy; 2019 <a href="https://beta.companieshouse.gov.uk/company/SC647817">OpenCulinary C.I.C.</a>'
     menuMore = 'Show more'
     readMore = 'Read more'
     readOtherPosts = 'Read other posts'
