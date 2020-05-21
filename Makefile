@@ -1,4 +1,4 @@
-.PHONY: prebuild
+.PHONY: build
 
-prebuild:
+build:
 	hugo
