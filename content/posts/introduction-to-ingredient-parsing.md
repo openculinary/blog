@@ -6,6 +6,8 @@ tags:
 - crawler
 ---
 
+*This is the first post in a series that explores the technology that RecipeRadar uses to process and store recipe ingredients*
+
 As a recipe search engine, [RecipeRadar](https://www.reciperadar.com) aims to collect and understand recipe content from around the web.
 
 We're able to crawl recipes from any website supported by the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) Python library, and the result of each crawl includes -- among other details -- a list of the ingredients required and a list of the preparation directions.  Both of these lists are represented as lines of text, as written by the original recipe author.
