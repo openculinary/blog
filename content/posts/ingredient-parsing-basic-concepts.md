@@ -1,5 +1,9 @@
 ---
 title: "Ingredient Parsing: Introduction and Terminology"
+tags:
+- engineering
+- ingredients
+- crawler
 ---
 
 As a recipe search engine, [RecipeRadar](https://www.reciperadar.com) aims to collect and understand recipe content from around the web.
