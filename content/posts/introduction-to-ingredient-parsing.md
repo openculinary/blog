@@ -10,9 +10,11 @@ As a recipe search engine, [RecipeRadar](https://www.reciperadar.com) aims to co
 
 We're able to crawl recipes from any website supported by the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) Python library, and the result of each crawl includes -- among other details -- the list of the ingredients and the list of the steps required to prepare that recipe.  The individual items within those lists are text strings, as written by the original recipe author.
 
-Given these text descriptions, one useful and important set of information we can gather is the _names_ of the ingredients used in each recipe and their associated _quantities_.
+Within ingredients, there are two key pieces of information we'd like to gather: the _name_ of each ingredient and the associated _quantity_ of it that is required.
 
-For example, one recipe may include a requirement for "2 cups of cold water", while another may similarly list "30ml water".  Using RecipeRadar's engineering terminology, we refer to the contents of an ingredient as the 'product' (`water`, in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml`, respectively).
+Let's imagine two examples.  One recipe could include an ingredient with the description "2 cups of cold water", while a second recipe may list "30ml water".
+
+Using RecipeRadar's engineering terminology, we refer to the contents of an ingredient as the 'product' (`water` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
 
 So far, so good.  However, the situation becomes a little more complicated when we realize that recipe authors add all kinds of useful flair and detail to their ingredient descriptions:
 
