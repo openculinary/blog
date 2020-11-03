@@ -8,7 +8,7 @@ tags:
 
 As a recipe search engine, [RecipeRadar](https://www.reciperadar.com) aims to collect and understand recipe content from around the web.
 
-We're able to crawl recipes from any website supported by the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) Python library, and the result of each crawl includes -- among other details -- the list of the ingredients and the list of the steps required to prepare that recipe.  Each list item consists of plain text, as written by the original recipe author.
+We're able to crawl recipes from any website supported by the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) Python library, and the result of each crawl includes -- among other details -- the list of the ingredients and the list of the steps required to prepare that recipe.  The individual items within those lists are text strings, as written by the original recipe author.
 
 Given these text descriptions, one useful and important set of information we can gather is the _names_ of the ingredients used in each recipe and their associated _quantities_.
 
