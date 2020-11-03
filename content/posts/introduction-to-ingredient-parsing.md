@@ -12,7 +12,7 @@ We're able to crawl recipes from any website supported by the [recipe-scrapers](
 
 For each ingredient there are two key pieces of information we'd like to gather: the _name_ of each ingredient and the associated _quantity_ of it that is required.
 
-Let's imagine two examples.  One recipe could include an ingredient with the description "2 cups of cold water", while a second recipe may list "30ml water".
+Let's take two examples.  One recipe could include an ingredient with the description "2 cups of cold water", while a second recipe may list "30ml water".
 
 Using RecipeRadar's engineering terminology, we refer to the contents of an ingredient as the 'product' (`water` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
 
