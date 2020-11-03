@@ -1,5 +1,5 @@
 ---
-title: "Ingredient Parsing: Introduction and Terminology"
+title: "An introduction to ingredient parsing"
 tags:
 - engineering
 - ingredients
