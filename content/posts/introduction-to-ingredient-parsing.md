@@ -12,9 +12,9 @@ As a recipe search engine, [RecipeRadar](https://www.reciperadar.com) aims to co
 
 We're able to crawl recipes from any website supported by the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) Python library, and the results of each crawl include -- among other details -- a list of the ingredients required and a list of the preparation directions.  Both of these lists are represented as lines of text, as written by the original recipe author.
 
-For each ingredient there are two key pieces of information we'd like to gather: the _name_ of each ingredient and the associated _quantity_ of it that is required.
+For each ingredient there are two key pieces of information we'd like to gather: the _name_ of each ingredient and the associated _quantity_ of it that is required.  Given these, we can offer search-by-ingredient functionality -- "show me recipes containing tomatoes" -- and also build shopping lists that indicate what quantity of ingredients are required for a set of planned meals.
 
-Let's take two examples.  One recipe could include an ingredient with the description "2 cups of cold water", while a second recipe may list "30ml water".
+Let's use some real-world ingredient descriptions as examples.  One recipe could include an ingredient with the description "2 cups of cold water", while a second recipe may list "30ml water".
 
 Within RecipeRadar's [data model](https://en.wikipedia.org/wiki/Data_model), we refer to the contents of an ingredient as the 'product' (`water` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
 
