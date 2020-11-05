@@ -29,6 +29,6 @@ Here we find products (`black pepper`, `apples`, `kale`) and quantities interlea
 
 Although inter-service communication within RecipeRadar typically uses JSON to represent objects and data, it's not well suited to representing text with inline metadata.  Instead, we've found that XML is a useful alternative since it enables us to add markup that is attached to individual phrases.
 
-Taking the first example from the ingredient list above, we could use XML to annotate the product and quantities like so: "a <quantity>pinch</quantity> of freshly ground <product>black pepper</product>".  In practice, RecipeRadar uses a slightly different XML schema but the principle is the same.
+Taking the first example from the ingredient list above, we could use XML to annotate the product and quantities like so: `a <quantity>pinch</quantity> of freshly ground <product>black pepper</product>`.  In practice, RecipeRadar uses a slightly different XML schema but the principle is the same.
 
 In our next blog post, we'll cover some of the code that extracts product names and ingredient quantities from plain text, and how we use the resulting information to provide recipe search and meal planning functionality.
