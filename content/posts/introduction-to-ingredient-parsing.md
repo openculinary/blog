@@ -27,7 +27,7 @@ So far, so good.  However, the situation becomes a little more complicated when 
 
 Here we find products (`black pepper`, `apples`, `kale`) and quantities interleaved with additional information (`freshly ground`, ...).  We'd like to keep that extra information around -- it can help with preparation and selection of ingredients, and it helps to ensure that the recipe author's instructions are faithfully maintained.
 
-A lot of inter-service communication within the RecipeRadar application uses JSON as a native data format.  In the case of free-text descriptions interleaved with structured metadata, we've found that XML is a useful alternative since it enables us to add markup that applies to individual phrases.
+Inter-service communication within RecipeRadar typically uses JSON as a data format.  In the case of free-text descriptions interleaved with structured metadata, we've found that XML is a useful alternative since it enables us to add markup that applies to individual phrases.
 
 Taking the first example from the ingredient list above, we could use XML to annotate the product and quantities: "a <quantity>pinch</quantity> of freshly ground <product>black pepper</product>".  Note that in practice, RecipeRadar uses a slightly different XML schema but the principle is the same.
 
