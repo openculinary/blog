@@ -18,7 +18,7 @@ Let's use some real-world ingredient descriptions as examples.  One recipe could
 
 Within RecipeRadar's [data model](https://en.wikipedia.org/wiki/Data_model), we refer to the purchasable contents of an ingredient as the 'product' (`vegetable stock` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
 
-So far, so good.  However, the situation becomes a little more complicated when we realize that recipe authors add all kinds of useful flair and detail to their ingredient descriptions:
+So far, so good.  The situation becomes a little more complicated when we realize that recipe authors add all kinds of useful flair and detail to their ingredient descriptions:
 
 * a pinch of freshly ground black pepper
 * 2 large apples, cut into chunks
