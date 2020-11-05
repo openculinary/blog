@@ -12,9 +12,9 @@ As a recipe search engine, [RecipeRadar](https://www.reciperadar.com) aims to co
 
 We're able to crawl recipes from any website supported by the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) Python library, and the results of each crawl include -- among other details -- a list of the recipe's ingredients and a list of the preparation step involved.  Both of these lists are represented as lines of text, as written by the original recipe author.
 
-For each ingredient there are two key pieces of information we'd like to identify: the _name_ of the ingredient and the associated _quantity_ of it that is required.  Given these, we can offer search-by-ingredient functionality -- "show me recipes containing tomatoes" -- and also turn a meal plan into a shopping list that indicates the total amount of all ingredients required.
+For each ingredient there are two key pieces of information we'd like to identify: the _name_ of the ingredient and the associated _quantity_ of it that is required.  Given these, we can offer search-by-ingredient functionality -- "show me recipes containing tomatoes" -- and also turn a meal plan into a shopping list that includes the total amount of all ingredients required.
 
-Let's use some real-world ingredient descriptions as examples.  One recipe could include an ingredient with the description "2 cups of vegetable stock", while a second recipe may list "30ml vegetable stock".
+Let's use some real-world ingredient descriptions as examples.  One recipe could contain an ingredient with the description "2 cups of vegetable stock", while a second recipe may list "30ml vegetable stock".
 
 Within RecipeRadar's [data model](https://en.wikipedia.org/wiki/Data_model), we refer to the purchasable contents of an ingredient as the 'product' (`vegetable stock` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
 
