@@ -27,4 +27,4 @@ So far, so good.  However, the situation becomes a little more complicated when 
 
 Here we find products (`black pepper`, `apples`, `kale`) and quantities interleaved with additional information (`freshly ground`, ...).  We'd like to keep that extra information around -- it can help with preparation and selection of ingredients, and it helps to ensure that the recipe author's instructions are faithfully maintained.
 
-In our next blog post, we'll share and explain some of the code that identifies and extracts product names and ingredient quantities from plain text, and how we use the resulting information to provide recipe search and meal planning functionality.
+In our next blog post, we'll share and explain some of the code that extracts product names and ingredient quantities from plain text, and how we use the resulting information to provide recipe search and meal planning functionality.
