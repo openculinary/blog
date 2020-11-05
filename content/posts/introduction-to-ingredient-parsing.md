@@ -27,7 +27,7 @@ So far, so good.  The situation becomes a little more complicated when we realiz
 
 Here we find products (`black pepper`, `apples`, `kale`) and quantities interleaved with additional descriptive details (`freshly ground`, ...).  We'd like to keep that extra information around -- it can help with preparation and selection of ingredients, and it helps to ensure that the recipe author's instructions are faithfully maintained.
 
-Although inter-service communication within RecipeRadar typically uses JSON to serialize objects and data, we've found that JSON is not well suited to representing text with inline metadata.  Instead, we use XML since it enables us to add markup that is attached to individual phrases.
+Although inter-service communication within RecipeRadar typically uses JSON to serialize objects and data, we've found that JSON is not well suited to representing text with inline metadata.  Instead, we use XML which allows us to add markup that is attached to individual phrases.
 
 Taking the first example from the ingredient list above, we could use XML to annotate the product and quantities like so: `a <quantity>pinch</quantity> of freshly ground <product>black pepper</product>`.  In practice, RecipeRadar uses a slightly different XML schema but the principle is the same.
 
