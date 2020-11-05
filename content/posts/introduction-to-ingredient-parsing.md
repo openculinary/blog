@@ -16,7 +16,7 @@ For each ingredient there are two key pieces of information we'd like to identif
 
 Let's use some real-world ingredient descriptions as examples.  One recipe could include an ingredient with the description "2 cups of vegetable stock", while a second recipe may list "30ml vegetable stock".
 
-Within RecipeRadar's [data model](https://en.wikipedia.org/wiki/Data_model), we refer to the contents of an ingredient as the 'product' (`vegetable stock` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
+Within RecipeRadar's [data model](https://en.wikipedia.org/wiki/Data_model), we refer to the purchasable contents of an ingredient as the 'product' (`vegetable stock` in both of these examples), and the amount required as the 'quantity' (`2 cups` and `30ml` respectively).
 
 So far, so good.  However, the situation becomes a little more complicated when we realize that recipe authors add all kinds of useful flair and detail to their ingredient descriptions:
 
