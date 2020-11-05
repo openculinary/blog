@@ -25,7 +25,7 @@ So far, so good.  The situation becomes a little more complicated when we realiz
 * a bunch of kale, roughly chopped
 * one medium apple
 
-Here we find products (`black pepper`, `apples`, `kale`) and quantities interleaved with additional information (`freshly ground`, ...).  We'd like to keep that extra information around -- it can help with preparation and selection of ingredients, and it helps to ensure that the recipe author's instructions are faithfully maintained.
+Here we find products (`black pepper`, `apples`, `kale`) and quantities interleaved with additional descriptive details (`freshly ground`, ...).  We'd like to keep that extra information around -- it can help with preparation and selection of ingredients, and it helps to ensure that the recipe author's instructions are faithfully maintained.
 
 Although inter-service communication within RecipeRadar typically uses JSON to represent objects and data, it's not well suited to representing text with inline metadata.  Instead, we've found that XML is a useful alternative since it enables us to add markup that is attached to individual phrases.
 
