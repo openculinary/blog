@@ -31,4 +31,4 @@ A lot of inter-service communication within the RecipeRadar application uses JSO
 
 Taking the first example from the ingredient list above, we could use XML to annotate the product and quantities: "a <quantity>pinch</quantity> of freshly ground <product>black pepper</product>".  Note that in practice, RecipeRadar uses a slightly different XML schema but the principle is the same.
 
-In our next blog post, we'll share and explain some of the code that extracts product names and ingredient quantities from plain text, and how we use the resulting information to provide recipe search and meal planning functionality.
+In our next blog post, we'll cover some of the code that extracts product names and ingredient quantities from plain text, and how we use the resulting information to provide recipe search and meal planning functionality.
