@@ -3,6 +3,7 @@ title: "An introduction to ingredient parsing"
 tags:
 - engineering
 - ingredients
+- parsing
 - crawler
 ---
 
