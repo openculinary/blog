@@ -20,8 +20,8 @@ image-create:
 image-finalize:
 	buildah copy ${container} 'public' '/usr/share/nginx/html'
 	buildah copy ${container} 'public/posts' '/usr/share/nginx/html'
-	buildah config --port 80 --entrypoint '/usr/sbin/nginx -g "daemon off;"' $(container)
-	buildah commit --squash --rm $(container) ${IMAGE_NAME}:${IMAGE_TAG}
+	buildah config --port 80 --cmd '/usr/sbin/nginx -g "daemon off;"' $(container)
+	buildah commit --quiet --rm --squash $(container) ${IMAGE_NAME}:${IMAGE_TAG}
 
 bundle:
 	hugo
