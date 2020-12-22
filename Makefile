@@ -1,4 +1,4 @@
-.PHONY: build
+.PHONY: build deploy image image-create image-finalize bundle
 
 SERVICE=$(shell basename $(shell git rev-parse --show-toplevel))
 REGISTRY=registry.openculinary.org
@@ -8,11 +8,13 @@ IMAGE_NAME=${REGISTRY}/${PROJECT}/${SERVICE}
 IMAGE_COMMIT := $(shell git rev-parse --short HEAD)
 IMAGE_TAG := $(strip $(if $(shell git status --porcelain --untracked-files=no), latest, ${IMAGE_COMMIT}))
 
-build: image-create bundle image-finalize
+build: image
 
 deploy:
 	kubectl apply -f k8s
 	kubectl set image deployments -l app=${SERVICE} ${SERVICE}=${IMAGE_NAME}:${IMAGE_TAG}
+
+image: image-create bundle image-finalize
 
 image-create:
 	$(eval container=$(shell buildah from docker.io/library/nginx:alpine))
