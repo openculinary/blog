@@ -13,7 +13,7 @@ There'll be no user account to create - and thus no login details to remember or
 
 Attached is a short video clip of the feature as it currently exists in development - demonstrating me adding a note to a shared shopping list from another device.
 
-![A video that displays a remote user adding a note (to remember the milk) to a shopping list](/videos/collaboration.webm)
+![A video that displays a remote user adding a note (to remember the milk) to a shopping list](/videos/collaboration.apng)
 
 As usual, we're building upon functionality provided by other free and open source components. In this case credit is due to the [`YJS`](https://yjs.dev/) collaborative
 
