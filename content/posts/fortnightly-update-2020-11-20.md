@@ -21,9 +21,7 @@ There have been a few developments since the last update:
 
 **Coming up next**
 
-The largest work-in-progress feature is the long-awaited _collaboration_ feature,
-
-restoring multi-device application sessions.
+The largest work-in-progress feature is the long-awaited _collaboration_ feature, restoring multi-device application sessions.
 
 It's proving difficult for the engineering team to get traction on - the design in particular is fairly complicated and important to get right, but we're working on it.
 

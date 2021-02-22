@@ -15,6 +15,4 @@ Attached is a short video clip of the feature as it currently exists in developm
 
 ![A video that displays a remote user adding a note (to remember the milk) to a shopping list](/videos/collaboration.apng)
 
-As usual, we're building upon functionality provided by other free and open source components. In this case credit is due to the [`YJS`](https://yjs.dev/) collaborative
-
-editing library, and the [`CodeMirror`](https://codemirror.net/) text editor.
+As usual, we're building upon functionality provided by other free and open source components. In this case credit is due to the [`YJS`](https://yjs.dev/) collaborative editing library, and the [`CodeMirror`](https://codemirror.net/) text editor.

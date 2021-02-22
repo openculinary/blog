@@ -15,9 +15,7 @@ One of the features of the screens that may involve the most complex user intera
 
 When you interact with RecipeRadar on your phone or on your computer, the information presented to you is served by our recipe search engine, which is based on the open source [`Elasticsearch`](https://www.elastic.co/elasticsearch/) product.
 
-We also use the popular open source [`PostgreSQL`](https://www.postgresql.org/) database
-
-to store persistent data: ingredients, recipes, our progress crawling the recipe web, and user search logs (which do not contain any [personally-identifying information](https://en.wikipedia.org/wiki/Personal_data)).
+We also use the popular open source [`PostgreSQL`](https://www.postgresql.org/) database to store persistent data: ingredients, recipes, our progress crawling the recipe web, and user search logs (which do not contain any [personally-identifying information](https://en.wikipedia.org/wiki/Personal_data)).
 
 Until recently, both the search engine and database have had to be online continuously for the application to work correctly, and upgrades to the latter were performed manually.
 
