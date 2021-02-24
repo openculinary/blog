@@ -25,7 +25,7 @@ There are a few different directions we would like to continue in:
 
 - Ensuring that the credits on the site are updated to reflect more of the contributions included so far
 
-- Providing NPM packaging for our published feedback.js modifications could be beneficial long-term, even if we are the only consumers of it for now
+- Providing NPM packaging for our published `feedback.js` modifications could be beneficial long-term, even if we are the only consumers of it for now
 
 - Multi-user and multi-device collaboration, as ever, remains a product area that we would like to progress
 
