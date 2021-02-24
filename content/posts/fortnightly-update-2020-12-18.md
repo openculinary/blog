@@ -17,10 +17,20 @@ Rather than provide a lengthy update this week, we're going to reflect on some o
 
 During 2020 we've added:
 
-- Smarter 'partial' name matching during ingredient search - Recipe yield scaling
+- Smarter 'partial' name matching during ingredient search
 
-- A recipe detail page that can be shared via hyperlink - Dietary properties (vegetarian, dairy-free, ...) in recipe search results - Filtering of search results by recipe website
+- Recipe yield scaling
 
-- Tolerance for spelling errors during ingredient search - A recipe 'explore' view that provides simple yes/no ingredient prompts - ...and last but not least, rendering of nutritional information
+- A recipe detail page that can be shared via hyperlink
+
+- Dietary properties (vegetarian, dairy-free, ...) in recipe search results
+
+- Filtering of search results by recipe website
+
+- Tolerance for spelling errors during ingredient search
+
+- A recipe 'explore' view that provides simple yes/no ingredient prompts
+
+- ...and last but not least, rendering of nutritional information
 
 We were a touch optimistic on some of our [planned roadmap](https://github.com/openculinary/company/blob/7c92032146cce0be6f1a94fa8b26194e9757bc2d/roadmap/reciperadar.md), but that's ok; work will recommence fresh next year, and perhaps we'll be better prepared to plan future tasks with the added experience of hindsight.

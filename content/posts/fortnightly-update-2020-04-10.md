@@ -41,6 +41,8 @@ If you have any concerns about anyone's conduct relating to RecipeRadar, please 
 
 There's plenty more in store over the next couple of weeks.
 
-- We'll be investigating improvements to [link sharing](https://github.com/openculinary/frontend/issues/89#issuecomment-612141517) so that people can more easily share recipe ideas they find with friends - There's a [user experience bug](https://github.com/openculinary/frontend/issues/88) relating to 'jumpy' search results that we're planning to get rid of
+- We'll be investigating improvements to [link sharing](https://github.com/openculinary/frontend/issues/89#issuecomment-612141517) so that people can more easily share recipe ideas they find with friends
+
+- There's a [user experience bug](https://github.com/openculinary/frontend/issues/88) relating to 'jumpy' search results that we're planning to get rid of
 
 - We'll be [upgrading the recipe crawling library](https://github.com/openculinary/crawler/issues/6) that we use, and that will provide us with more sources of recipes from the web
