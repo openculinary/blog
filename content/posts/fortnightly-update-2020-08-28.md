@@ -15,9 +15,7 @@ The next step will be to index that metadata into our search engine so that appr
 
 **Direction Metadata**
 
-It looks like Facebook's [`duckling`](https://github.com/facebook/duckling) natural
-
-language parsing project could be very helpful to extract additional information -- temperatures, for example -- from recipe directions. We would prefer to run this tool as a service within our Kubernetes container environment, and in order to do so we've proposed a small fix/change upstream to them and are awaiting feedback.
+It looks like Facebook's [`duckling`](https://github.com/facebook/duckling) natural language parsing project could be very helpful to extract additional information -- temperatures, for example -- from recipe directions. We would prefer to run this tool as a service within our Kubernetes container environment, and in order to do so we've proposed a small fix/change upstream to them and are awaiting feedback.
 
 **Coming up next**
 
