@@ -19,8 +19,6 @@ As you may have seen on the mailing list, **Monica** has been preparing screens 
 
 These are exciting changes and they provide the opportunity to make each RecipeRadar session more intuitive and rewarding.
 
-Please provide your feedback about the prototype screens with the volunteers@reciperadar.com mailing list.
-
 **Improvements**
 
 A [long-standing issue](https://github.com/openculinary/api/issues/3) that allowed duplicate recipes to appear in search results has been thoroughly solved!

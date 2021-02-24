@@ -7,8 +7,6 @@ tags:
 ---
 **Updated Website Prototypes**
 
-Please take a look at the latest v6 website prototypes from **Monica** and provide your feedback. Mobile versions should also be arriving in the near future.
-
 One of the features of the screens that may involve the most complex user interactions and information presentation is the selection, display and navigation of planned meals (calendarization).
 
 **Architecture Investments**
