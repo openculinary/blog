@@ -21,7 +21,7 @@ Please note that we don't intend to surface this nutritional information to user
 
 **Direction Metadata**
 
-Over the past couple of weeks, we've explored various options related to extraction of metadata from recipe text -- we want to identify the various _actions_ involved when preparing recipes ("*combine_ the flour and milk") and also to discover the important _entities_ involved in each step ("pre-heat the oven to _200 F*").
+Over the past couple of weeks, we've explored various options related to extraction of metadata from recipe text -- we want to identify the various _actions_ involved when preparing recipes ("`combine` the flour and milk") and also to discover the important _entities_ involved in each step ("pre-heat the oven to `200 F`").
 
 The ideal outcome of this -- which could take some time -- is that we will be able to use the [co-references](https://en.wikipedia.org/wiki/Coreference) discovered in recipe directions to represent those visually, as in the example diagram included in the application's [vision statement](https://www.reciperadar.com/#about-vision).
 
