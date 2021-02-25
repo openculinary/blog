@@ -25,7 +25,7 @@ For this user's query, we'd like our search results to include recipes that cont
 
 **Use case 2: Ingredient autocompletion**
 
-RecipeRadar should provide relevant [autocompletion](https://en.wikipedia.org/wiki/Autocomplete) suggestions when the user begins inputting an ingredient name.
+RecipeRadar should provide relevant [autocompletion](https://en.wikipedia.org/wiki/Autocomplete) suggestions when the user begins entering an ingredient name.
 
 For example, if the user has entered the characters `green ol`, then we may want to display either `green olive` or `green olives` as a suggestion, but we do _not_ want to display both -- they are the same ingredient.
 
