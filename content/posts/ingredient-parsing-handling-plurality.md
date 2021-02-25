@@ -21,7 +21,7 @@ RecipeRadar should allow users to search based on the ingredients they have avai
 
 In English, the words 'tofu' and 'beef' do not have plural forms, so we will focus on the red onion ingredient.
 
-For this user's query, we'd like to include recipes that contain _either_ `red onion` (singular) _or_ `red onions` (plural) as ingredients in the search results.
+For this user's query, we'd like our search results to include recipes that contain _either_ `red onion` (singular) _or_ `red onions` (plural) as ingredients.
 
 **Use case 2: Ingredient autocompletion**
 
