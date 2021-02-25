@@ -60,3 +60,13 @@ This approach is relatively wasteful in terms of storage, since we store both th
 However, it is also relatively simple to explain and implement, and can be achieved without managing a set of 'preferred pluralities' for each ingredient.
 
 It also has a nice property that it will automatically adjust to reflect content retrieved from the web.  If people begin using plural forms much more often in future, then RecipeRadar's suggestions will adapt to that over time.
+
+**Implementation Reference**
+
+At the time this article was written, most of the relevant code is in three places:
+
+- Storage: the [product name and related fields](https://github.com/openculinary/backend/blob/5382aea14d256dd471d5529592ac5632e520eb7d/reciperadar/models/recipes/ingredient.py#L54-L59) in the RecipeRadar ingredient model
+
+- Storage: the [ingredient product properties](https://github.com/openculinary/backend/blob/5382aea14d256dd471d5529592ac5632e520eb7d/scripts/update-recipe-index.py#L49-L59) stored in the [Elasticsearch Mapping](https://www.elastic.co/guide/en/elasticsearch/reference/7.11/mapping.html)
+
+- Autosuggest: the [plurality detection code](https://github.com/openculinary/api/blob/ae5c00d5e25ed51f5d832910f38bfd9969934929/reciperadar/search/ingredients.py#L33-L69), which uses [Elasticsearch Aggregations](https://www.elastic.co/guide/en/elasticsearch/reference/7.11/search-aggregations.html)
