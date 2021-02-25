@@ -59,7 +59,7 @@ This approach is relatively wasteful in terms of storage, since we store both th
 
 However, it is also relatively simple to explain and implement, and can be achieved without managing a set of 'preferred pluralities' for each ingredient.
 
-It also has a nice property that it will automatically adjust to reflect content retrieved from the web.  If people begin using plural forms much more often in future, then RecipeRadar's suggestions will adapt to that over time.
+It also has a nice property that it will automatically adjust to reflect content retrieved from the web.  For example, if people switch from using a traditionally singular ingredient name to a plural form in future, then RecipeRadar's suggestions will adapt to that over time.
 
 **Implementation Reference**
 
