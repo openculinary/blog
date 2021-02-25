@@ -19,6 +19,8 @@ Let's begin by presenting two of RecipeRadar's ingredient search use cases.
 
 RecipeRadar should allow users to search based on the ingredients they have available, without having to specify quantities.  A user may have tofu and a red onion available at home, for example, and may want to exclude recipes that contain beef.
 
+In English, the words 'tofu' and 'beef' do not have plural forms, so we will focus on the red onion ingredient.
+
 For a search query like that, we'd like to show recipes that contain _either_ `red onion` (singular) _or_ `red onions` (plural) as ingredients.
 
 **Use case 2: Ingredient autocompletion**
