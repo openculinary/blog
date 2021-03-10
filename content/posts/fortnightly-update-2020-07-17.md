@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-07-17
+title: "Internal tooling: recipe crawler diagnostics"
 date: 2020-07-17
 author: James
 tags:

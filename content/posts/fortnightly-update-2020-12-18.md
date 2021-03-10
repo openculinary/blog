@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-12-18
+title: "Reflecting on 2020"
 date: 2020-12-18
 author: James
 tags:

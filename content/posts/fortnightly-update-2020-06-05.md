@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-06-05
+title: "Database architecture updates and an internationalization question"
 date: 2020-06-05
 author: James
 tags:

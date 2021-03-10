@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-07-03
+title: "Spelling suggestions are live!"
 date: 2020-07-03
 author: James
 tags:

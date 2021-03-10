@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-10-23
+title: "Construction continues.. and an update on indexing performance"
 date: 2020-10-23
 author: James
 tags:

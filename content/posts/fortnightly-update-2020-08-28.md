@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-08-28
+title: "Progress update on recipe metadata extraction"
 date: 2020-08-28
 author: James
 tags:

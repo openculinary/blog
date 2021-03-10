@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2021-01-08
+title: "Video demonstration: multi-device collaboration!"
 date: 2021-01-08
 author: James
 tags:

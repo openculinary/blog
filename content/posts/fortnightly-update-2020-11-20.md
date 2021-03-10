@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-11-20
+title: "Blog updates, filter-recipes-by-website, and more"
 date: 2020-11-20
 author: James
 tags:
