@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-05-08
+title: "Open source ethics, ingredient highlighting, and entry to the Progressive Web App Store"
 date: 2020-05-08
 author: James
 tags:

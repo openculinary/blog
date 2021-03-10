@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2021-02-12
+title: "Keeping busy with maintenance and bugfixes"
 date: 2021-02-12
 author: James
 tags:

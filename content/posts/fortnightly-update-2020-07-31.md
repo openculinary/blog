@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-07-31
+title: "Getting started with Nutritional Information"
 date: 2020-07-31
 author: James
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-10-09
+title: "Multi-device collaboration, and a discussion on Hacker News"
 date: 2020-10-09
 author: James
 tags:

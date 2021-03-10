@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-04-24
+title: "Updated search control designs, and de-duplication of recipes"
 date: 2020-04-24
 author: James
 tags:

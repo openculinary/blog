@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-04-10
+title: "Our first fortnightly update on the blog!"
 date: 2020-04-10
 author: James
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-05-22
+title: "Partial ingredient search, meal planner updates, and more"
 date: 2020-05-22
 author: James
 tags:

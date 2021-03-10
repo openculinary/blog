@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-12-04
+title: "A new way to find recipes: the Recipe Explorer!"
 date: 2020-12-04
 author: James
 tags:

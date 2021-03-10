@@ -1,5 +1,5 @@
 ---
-title: Fortnightly Update - 2020-06-19
+title: "Introducing the Recipe Detail Page"
 date: 2020-06-19
 author: James
 tags:
