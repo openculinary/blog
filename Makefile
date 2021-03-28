@@ -17,7 +17,7 @@ deploy:
 image: image-create bundle image-finalize
 
 image-create:
-	$(eval container=$(shell buildah from docker.io/library/nginx:alpine))
+	$(eval container=$(shell buildah from nginx:alpine))
 
 image-finalize:
 	buildah copy ${container} 'public' '/usr/share/nginx/html'
