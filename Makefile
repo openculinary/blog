@@ -17,13 +17,13 @@ deploy:
 image: image-create bundle image-finalize
 
 image-create:
-	$(eval container=$(shell buildah --storage-opt overlay.mount_program=/usr/bin/fuse-overlayfs from docker.io/library/nginx:alpine))
+	$(eval container=$(shell buildah from docker.io/library/nginx:alpine))
 
 image-finalize:
 	buildah copy ${container} 'public' '/usr/share/nginx/html'
 	buildah copy ${container} 'public/posts' '/usr/share/nginx/html'
 	buildah config --port 80 --cmd '/usr/sbin/nginx -g "daemon off;"' $(container)
-	buildah commit --quiet --rm --squash --storage-opt overlay.mount_program=/usr/bin/fuse-overlayfs $(container) ${IMAGE_NAME}:${IMAGE_TAG}
+	buildah commit --quiet --rm --squash $(container) ${IMAGE_NAME}:${IMAGE_TAG}
 
 bundle:
 	hugo
