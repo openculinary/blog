@@ -19,12 +19,14 @@ date = ['date', ':git']
   [languages.en]
     languageName = 'English'
     title = 'RecipeRadar Blog'
-    subtitle = 'News and articles relating to the RecipeRadar search engine'
-    keywords = 'recipes, software, news, technology'
     copyright = '&copy; 2019 [OpenCulinary C.I.C.](https://beta.companieshouse.gov.uk/company/SC647817)'
-    menuMore = 'Show more'
-    readMore = 'Read more'
-    readOtherPosts = 'Read other posts'
+
+    [languages.en.params]
+      subtitle = 'News and articles relating to the RecipeRadar search engine'
+      keywords = 'recipes, software, news, technology'
+      menuMore = 'Show more'
+      readMore = 'Read more'
+      readOtherPosts = 'Read other posts'
 
     [languages.en.params.logo]
       logoText = 'RecipeRadar Blog'
