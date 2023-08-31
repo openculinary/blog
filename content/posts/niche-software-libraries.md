@@ -37,5 +37,10 @@ We also learned about [Cattaz](https://github.com/FujitsuLaboratories/cattaz/), 
 RecipeRadar is registered as a company in the United Kingdom, and although it may be an overly-cautious interpretation of the [draft Online Safety Bill](https://www.gov.uk/government/publications/draft-online-safety-bill) regulations, we determined that allowing our users to communicate with each other, even within a potentially limited scope such as shopping list contents, could open us up to additional technical compliance requirements.  Such functionality may still prove worthwhile in future, but we'd like to wait to see how the regulatory landscape evolves before spending development effort in this area.
 
 **recipe-scrapers**
+Retrieving recipes from the world wide web and making them searchable is the core of what RecipeRadar does, and the **recipe-scrapers** library is a key component that simplifies that process for us: it is a library that accepts the HTML of a recipe webpage as input, and it provides access to discrete recipe-related fields (the title of the recipe, the author's name, the list of ingredients, and so on) as output.
+
+We chose to integrate **recipe-scrapers** partly because the programming language that it's written in, [Python](https://www.python.org/), is the one that we're most familiar with and that we use throughout most of the the RecipeRadar [technology stack](https://en.wikipedia.org/wiki/Solution_stack).
+
+It has a friendly, collaborative developer community that we participate in, and we try to walk a careful line of encouraging and improving the functionality that the library provides while not pulling it in a direction that favours RecipeRadar at the cost of others.  Generally we expect that the use cases we have for the library are similar to those of other people who use it -- that is to say, we think that our incentives are broadly aligned with those of its' contributors, and we consider it important to maintain that alignment.
 
 **hashedindex**
