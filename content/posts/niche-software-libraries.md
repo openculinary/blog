@@ -48,3 +48,14 @@ We chose to integrate `recipe-scrapers` partly because the programming language 
 It doesn't do _everything_ that we need; `recipe-scrapers` won't extract ingredient names, quantities and units from each line in an ingredient list, for example.  But in software, that can be a good thing: each component should focus on what it does well, and subtasks can be delegated.  Roughly speaking this is referred to as the [principle of separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) in software engineering.  Arguably, RecipeRadar may have gone too far by creating entirely separate Python microservices to parse [quantities and ingredient names](http://blog.reciperadar.com/posts/introduction-to-ingredient-parsing/) -- but deciding when and how finely to divide code into distinct microservices is a topic for a different, future blog post.
 
 **hashedindex**
+Search engine technology is important throughout RecipeRadar - not only to provide the recipe search functionality that we make accessible through our web application, but also during processing of recipe text.
+
+Part of our work involves maintaining a dataset of more than two thousand named products (ingredients).  We use that dataset as a reference when we crawl recipes from the web, and we attempt to annotate each ingredient listing with a relevant product name.
+
+Matching that text is itself a search problem: what is the best product match within a snippet of text such as `bunch of cloves, finely chopped`?
+
+The answer is that we [build a search index of the product names](https://github.com/openculinary/knowledge-graph/blob/73d44627369728458cff9b6f5278948f5c71ec46/web/models/product_graph.py#L15-L38), and then we use the input text -- the ingredient's description -- as a [query to find and rank the results](https://github.com/openculinary/knowledge-graph/blob/73d44627369728458cff9b6f5278948f5c71ec46/web/ingredients.py#L58-L67).  That might seem slightly counter-intuitive: we're using content from the web as a query, and searching across a set of documents that are typically very short names - `cloves` is likely the result we're looking for in the given example.  More often, a query is a short term used to search within larger documents -- but in this case, the situation is reversed.
+
+Why did we use search engine technology to implement this solution?  Well, it's largely because it's an area of technology designed to deal with the kind of linguistic ambiguity that occurs in text that was written by and intended for humans, where spelling mistakes and differing word endings (plurals, for example) can occur, and where ranking of multiple potentially-relevant results can be important.
+
+The [`hashedindex`](https://github.com/MichaelAquilina/hashedindex/) library provides a neat Python-based implementation of text tokenization and search indexing, providing the basis for our in-process Python product search technology.
