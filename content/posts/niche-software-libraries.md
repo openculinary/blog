@@ -39,7 +39,7 @@ RecipeRadar is registered as a company in the United Kingdom, and although it ma
 **recipe-scrapers**
 Retrieving recipes from the world wide web and making them searchable is the core of what RecipeRadar does, and the [`recipe-scrapers`](https://github/com/hhursev/recipe-scrapers/) library is a key component that simplifies that process for us: it is a library that accepts the HTML of a recipe webpage as input, and it provides access to discrete recipe-related fields (the title of the recipe, the author's name, the list of ingredients, and so on) as output.
 
-Where possible, `recipe-scrapers` reads that data from a standard [`schema.org` format](https://schema.org/Recipe) that many recipe websites have adopted - and in situations where that isn't possible, it can attempt to find the same data using another library, [`beautifulsoup`](https://beautiful-soup-4.readthedocs.io/en/latest/) that is purpose-designed to query the contents of HTML and XML documents.
+Where possible, `recipe-scrapers` reads recipe information from a standard [`schema.org` format](https://schema.org/Recipe) that many recipe websites have adopted - and in situations where that isn't possible, it can attempt to find the same data using another library, [`beautifulsoup`](https://beautiful-soup-4.readthedocs.io/en/latest/) that is purpose-designed to query the contents of HTML and XML documents.
 
 We chose to integrate `recipe-scrapers` partly because the programming language that it's written in, [Python](https://www.python.org/), is the one that we're most familiar with and that we use throughout most of the the RecipeRadar [technology stack](https://en.wikipedia.org/wiki/Solution_stack).
 
