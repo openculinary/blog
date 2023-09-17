@@ -54,7 +54,7 @@ Search engine technology is important throughout RecipeRadar - not only to provi
 
 Part of our work involves maintaining a dataset of more than two thousand named products (ingredients).  We use that dataset as a reference when we crawl recipes from the web, and we attempt to annotate each ingredient listing with a relevant product name.
 
-Matching that text is itself a search problem: what is the best product match within a snippet of text such as `bunch of cloves, finely chopped`?
+Matching that text is itself a search problem: what is the best product match within a snippet of text such as `block of cheddar, finely grated`?
 
 The answer is that we [build a search index of the product names](https://github.com/openculinary/knowledge-graph/blob/73d44627369728458cff9b6f5278948f5c71ec46/web/models/product_graph.py#L15-L38), and then we use the input text -- the ingredient's description -- as a [query to find and rank the results](https://github.com/openculinary/knowledge-graph/blob/73d44627369728458cff9b6f5278948f5c71ec46/web/ingredients.py#L58-L67).  That might seem slightly counter-intuitive: we're using content from the web as a query, and searching across a set of documents that are typically very short - `cloves` is likely the entire content of the document we're looking for in the given example.  This contrasts to most search engine use cases, where queries are usually shorter than the documents that are retrieved -- but in this case, the situation is reversed.
 
