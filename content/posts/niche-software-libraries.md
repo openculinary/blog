@@ -12,7 +12,7 @@ Meanwhile, one of the reasons that open source software has become so successful
 
 Over time, this creates a form of self-improving software community workshop where developers can demonstrate that their components are the most useful, highest quality, best tested, well maintained and easiest to use -- and then selectively retrofit and improve their own workflows and projects based on each other's contributions.  The rewards for participating are numerous: there's a feelgood factor when authors learn that they've enabled someone else to achieve something, there's a name recognition factor, there's the possibility to discover career opportunities, there's social interaction, and there's the chance to share the development workload.. not to mention the satisfaction gained from using the software as it improves, or the potential to obtain funding to develop it.
 
-![The workshop of a ship's carpenter at the Altonaer Museum in Hamburg, Germany](/images/ingredient-highlighting.png)
+![The workshop of a ship's carpenter at the Altonaer Museum in Hamburg, Germany](/images/schiffszimmerers-werkstatt.png)
 
 The resulting software commons - which has no single authority or geography - has produced widely publicised projects such as the [Linux kernel](https://www.kernel.org), [GNU Coreutils](https://www.gnu.org/software/coreutils/coreutils.html), and [PostgreSQL database](https://www.postgresql.org) that have undoubtedly altered the course of computing history - and in doing so, have made software easier, cheaper and less time-consuming to access, deploy, learn, and improve upon.
 
