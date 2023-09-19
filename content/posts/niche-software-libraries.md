@@ -19,6 +19,7 @@ The resulting software commons - which has no single authority or geography - ha
 This post is about some of the smaller, lesser-known libraries that RecipeRadar has investigated and selected for specific functionality so far.  As a reminder: our objective is to provide completely free recipe search and meal planning to the general public, and to build that functionality in the open, using [free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) (FOSS).
 
 **peer-base and yjs**
+
 Today, RecipeRadar exists as a _single-user_ application: you open it on your computer, tablet or smartphone, and although your device communicates with the [RecipeRadar API](https://github.com/openculinary/api/), your copy of the app does not communicate with anyone else's.
 
 In the past we've experimented with introducing [peer-to-peer networking](https://en.wikipedia.org/wiki/Peer-to-peer) to enable scalable and fault-tolerant _multi-user_ interaction: a shared app session could exist across two or more smartphones, perhaps even during outages of the RecipeRadar search service.  The initial [use case](https://www.usability.gov/how-to-and-tools/methods/use-cases.html) for that was to enable multi-person households to co-ordinate food shopping; a companion task to meal planning.
@@ -39,6 +40,7 @@ We also learned about [Cattaz](https://github.com/FujitsuLaboratories/cattaz/), 
 RecipeRadar is registered as a company in the United Kingdom, and although it may be an overly-cautious interpretation of the [draft Online Safety Bill](https://www.gov.uk/government/publications/draft-online-safety-bill) regulations, we determined that allowing our users to communicate with each other, even within a potentially limited scope such as shopping list contents, could open us up to additional technical compliance requirements.  Such functionality may still prove worthwhile in future, but we'd like to wait to see how the regulatory landscape evolves before spending development effort in this area.
 
 **recipe-scrapers**
+
 Retrieving recipes from the world wide web and making them searchable is the core of what RecipeRadar does, and the [`recipe-scrapers`](https://github/com/hhursev/recipe-scrapers/) library is a key component that simplifies that process for us: it is a library that accepts the HTML of a recipe webpage as input, and it provides access to discrete recipe-related fields (the title of the recipe, the author's name, the list of ingredients, and so on) as output.
 
 ![A woodworking worktop with some work-in-progress chopsticks](/images/chopsticks.png)
@@ -52,6 +54,7 @@ We chose to integrate `recipe-scrapers` partly because the programming language 
 It doesn't do _everything_ that we need; `recipe-scrapers` won't extract ingredient names, quantities and units from each line in an ingredient list, for example.  But in software, that can be a good thing: each component should focus on what it does well, and subtasks can be delegated.  Roughly speaking this is referred to as the [principle of separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) in software engineering.
 
 **hashedindex**
+
 Search engine technology is important throughout RecipeRadar - not only to provide the recipe search functionality that we make accessible through our web application, but also during processing of recipe text.
 
 Part of our work involves maintaining a dataset of more than two thousand named products (ingredients).  We use that dataset as a reference when we crawl recipes from the web, and we attempt to annotate each ingredient listing with a relevant product name.
