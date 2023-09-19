@@ -66,3 +66,7 @@ To produce the answer to that question (`cheddar`), we [build a search index of 
 Why did we use search engine technology to implement this solution?  Well, it's largely because it's an area of technology designed to deal with the kind of linguistic ambiguity that occurs in text that was written by and intended for humans, where spelling mistakes and differing word endings (plurals, for example) can occur, and where ranking of multiple potentially-relevant results can be important.
 
 The [`hashedindex`](https://github.com/MichaelAquilina/hashedindex/) library provides a neat Python-based implementation of text tokenization and search indexing, providing the basis for our in-process Python product search technology.
+
+**Thanks!**
+
+That's all for this post!  Thanks for reading - we'll share what we've learned about more of the open source libraries used within RecipeRadar on this blog in future.
