@@ -1,6 +1,5 @@
 ---
 title: "Niche Software Libraries: Volume I"
-draft: true
 tags:
 - engineering
 - foss
