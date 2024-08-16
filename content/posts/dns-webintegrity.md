@@ -58,4 +58,4 @@ reciperadar.com.        3600    IN      NS      ns30.domaincontrol.com.
 
 This indicates that an `HTTP GET /` request -- a web request to the root path of the HTTP service hosted at `reciperadar.com` -- may return content that matches one of two valid SHA512 hash values.  Any other response content should be considered problematic by the HTTP client.
 
-Allowing more than one checksum means that we can deploy an update versions of our static web application and for the existing/stale version to remain valid until we are confident that all clients receiving up-to-date DNS results should also receive fresh HTTP response content.
+Publishing more than one active checksum means that we can deploy an updated version of our static web application while simultaneously allowing for the existing/stale version to remain valid.  When we become confident that clients reading current DNS results should receive fresh HTTP content, we can remove the outdated checksum.
