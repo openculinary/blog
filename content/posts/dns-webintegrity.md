@@ -8,7 +8,7 @@ tags:
 ---
 RecipeRadar attempts to provide a transparent, reliable and trustworthy recipe search experience.  On this blog, we've previously written about a key aspect of that: our principle of using Open Source software whenever possible.
 
-However, declaring that we use open source software does not, in itself, provide assurance of service integrity.  In particular: transparent and reassuring documentation about a named network communication service is a necessary prerequisite for trust, but users should also confirm that that they are indeed connected to the named service itself -- and not some other intermediatry.
+However, declaring that we use open source software does not, in itself, provide assurance of service integrity.  In particular: transparent and reassuring documentation about a named network communication service is a necessary prerequisite for trust, but users should also confirm that that they are indeed connected to that same named service -- and not some other intermediatry.
 
 In communications security, a classic disruptive pattern that aims to subvert even the most honest service provider is the [Adversary-in-the-Middle attack](https://cwe.mitre.org/documents/glossary/index.html#Adversary-in-the-Middle).  When we send a letter to a friend, we would like to assume that they (and only they) receive it.  However, were someone else be able to intercept that message, then, in the absence of other protective measures, that intermediate person could create a subtly-adjusted forgery, and perhaps send that on to the intended recipient.
 
