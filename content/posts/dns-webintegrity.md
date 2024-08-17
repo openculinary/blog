@@ -56,6 +56,6 @@ reciperadar.com.        3600    IN      NS      ns30.domaincontrol.com.
 ;; MSG SIZE  rcvd: 350
 ```
 
-This indicates that an `HTTP GET /` request -- a web request to the root path of the HTTP service hosted at `reciperadar.com` -- may return content that matches one of two valid SHA512 hash values.  Any other response content should be considered problematic by the HTTP client.
+This communicates that an `HTTP GET /` -- a web request to the root path of an HTTP server -- to the `reciperadar.com` domain -- is expected to return content that matches one of the two SHA512 hash values included inthe `B` record.  Any other response content should be considered problematic by the HTTP client.
 
 Publishing more than one active checksum means that we can deploy an updated version of our static web application while simultaneously allowing for the existing/stale version to remain valid.  When we become confident that clients reading current DNS results should receive fresh HTTP content, we can remove the outdated checksum.
