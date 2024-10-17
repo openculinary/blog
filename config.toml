@@ -3,14 +3,19 @@ enableGitInfo = true
 enableRobotsTXT = true
 disableHugoGeneratorInject = true
 languageCode = 'en-us'
-theme = 'primer'
+theme = 'hugo-flex'
 title = 'RecipeRadar Blog'
+
+[menu]
+main = [
+  {name = 'Posts', pageRef = '/post', weight = 2},
+  {name = 'Tags', pageRef = '/tags', weight = 3},
+  {name = 'RSS', pageRef = '/', weight = 5, params = [ {format = 'rss'} ] }
+]
 
 [params]
 math = false
-themeColor = 'blue'
-fullWidthTheme = false
-centerTheme = false
+color = '#005'
 
 [frontmatter]
 date = ['date', ':git']
@@ -19,15 +24,14 @@ date = ['date', ':git']
   [languages.en]
     languageName = 'English'
     title = 'RecipeRadar Blog'
-    copyright = '&copy; 2019 [OpenCulinary C.I.C.](https://find-and-update.company-information.service.gov.uk/company/SC647817)'
 
     [languages.en.params]
-      subtitle = 'News and articles relating to the RecipeRadar search engine'
-      keywords = 'recipes, software, news, technology'
-      menuMore = 'Show more'
-      readMore = 'Read more'
-      readOtherPosts = 'Read other posts'
+      description = 'News and articles relating to the RecipeRadar search engine'
+      footer = '&copy; 2019 <a href="https://find-and-update.company-information.service.gov.uk/company/SC647817">OpenCulinary C.I.C.</a>'
 
     [languages.en.params.logo]
       logoText = 'RecipeRadar Blog'
       logoHomeLink = '/'
+
+[pagination]
+pagerSize = 3
