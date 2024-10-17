@@ -19,7 +19,7 @@ date = ['date', ':git']
   [languages.en]
     languageName = 'English'
     title = 'RecipeRadar Blog'
-    copyright = '&copy; 2019 [OpenCulinary C.I.C.](https://beta.companieshouse.gov.uk/company/SC647817)'
+    copyright = '&copy; 2019 [OpenCulinary C.I.C.](https://find-and-update.company-information.service.gov.uk/company/SC647817)'
 
     [languages.en.params]
       subtitle = 'News and articles relating to the RecipeRadar search engine'
