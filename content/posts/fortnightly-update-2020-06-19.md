@@ -11,8 +11,6 @@ To make better use of device screen space, clicking on a recipe now takes you to
 
 The page incorporates a number of aspects from **Monica**'s screen designs, including the ability for the user to hover-to-highlight recipe direction steps.
 
-![A lasagne recipe](/images/lasagne.png)
-
 **Recipe Scaling**
 
 If you're eagle-eyed (or had been waiting for this feature) then you may have spotted that the 'servings' field on the recipe details page is an edit box.
