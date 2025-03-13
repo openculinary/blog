@@ -18,12 +18,11 @@ image: image-create bundle image-finalize
 
 image-create:
 	$(eval container=$(shell buildah from docker.io/library/nginx:alpine))
-	buildah copy $(container) 'etc/nginx/conf.d' '/etc/nginx/conf.d'
-	buildah run --network none $(container) -- rm -rf '/usr/share/nginx/html' --
+	buildah copy $(container) 'etc/nginx' '/etc/nginx'
 
 image-finalize:
-	buildah copy $(container) 'public' '/usr/share/nginx/html'
-	buildah copy $(container) 'public/posts' '/usr/share/nginx/html'
+	buildah copy $(container) 'public' '/usr/share/nginx/html/reciperadar'
+	buildah copy $(container) 'public/posts' '/usr/share/nginx/html/reciperadar'
 	buildah config --cmd '/usr/sbin/nginx -g "daemon off;"' --port 80 $(container)
 	buildah commit --quiet --rm --squash $(container) ${IMAGE_NAME}:${IMAGE_TAG}
 
