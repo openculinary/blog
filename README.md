@@ -6,7 +6,7 @@ It's a [Hugo](https://gohugo.io) static site and posts are configured to read th
 
 ## Install dependencies
 
-Make sure to follow the RecipeRadar [infrastructure](https://www.github.com/openculinary/infrastructure) setup to ensure all cluster dependencies are available in your environment.
+Make sure to follow the RecipeRadar [infrastructure](https://codeberg.org/openculinary/infrastructure) setup to ensure all cluster dependencies are available in your environment.
 
 ## Local Deployment
 
